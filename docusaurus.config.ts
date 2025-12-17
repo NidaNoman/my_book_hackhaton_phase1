@@ -11,12 +11,10 @@ const config: Config = {
   tagline: 'Bridging the gap between the digital brain and the physical body',
   favicon: 'img/favicon.ico',
 
-  // ✅ Works on BOTH Vercel & GitHub Pages
-  url: isVercel
-    ? 'https://vercel.app'
-    : 'https://github.com',
-
-  baseUrl: isVercel ? '/' : '/',
+  // Set the production url of your site here
+  url: 'https://github.com/',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  baseUrl: '/',
 
   // GitHub Pages config
   organizationName: 'NidaNoman',
