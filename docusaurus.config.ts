@@ -32,7 +32,7 @@ const config: Config = {
   customFields: {
     apiUrl:
       process.env.REACT_APP_API_URL ??
-      'web-production-fa10c.up.railway.app',
+      'https://web-production-fa10c.up.railway.app',
     apiKey: process.env.REACT_APP_API_KEY ?? '',
   },
 
