@@ -32,7 +32,7 @@ const config: Config = {
   customFields: {
     apiUrl:
       process.env.REACT_APP_API_URL ??
-      'https://ai-rative-book-backend-production.up.railway.app',
+      'web-production-fa10c.up.railway.app',
     apiKey: process.env.REACT_APP_API_KEY ?? '',
   },
 
